@@ -17,7 +17,7 @@ public class PlaceUtils {
             if (photos.length() > 0) {
                 JSONObject photo = photos.getJSONObject(0); // Assuming you're interested in the first photo
                 String photoReference = photo.getString("photo_reference");
-                photoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=" + photoReference + "&key=AIzaSyASQbEAMJknhJ46y2D5bvpJ3yL2Il1iyfM";
+                photoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=" + photoReference + "" // enter key here;
             }
         }
 
