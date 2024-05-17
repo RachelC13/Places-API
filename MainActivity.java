@@ -115,9 +115,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     }
 
     private String getIconUrl(String attributions) {
-        String requestUrl = "https://maps.googleapis.com/maps/api/place/details/json?"
+        String requestUrl = // enter url
                 + "place_id" + placeId
-                + "&key=" + "AIzaSyASQbEAMJknhJ46y2D5bvpJ3yL2Il1iyfM";
+                + "&key=" + //enter your key;
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
                 .url(requestUrl)
